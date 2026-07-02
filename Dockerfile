@@ -1,4 +1,4 @@
-# 1. Use a lightweight Node image to keep container size minimal (~150MB)
+#1 . Use an official Node.js runtime as a parent image
 FROM node:20
 
 # 2. Establish the active directory inside the container
